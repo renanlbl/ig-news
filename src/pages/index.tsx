@@ -5,6 +5,10 @@ import { stripe } from '../services/stripe';
 
 import styles from './home.module.scss';
 
+// CLIENT - SIDE
+// SERVER SIDE
+// STATIC SIDE GENERATION
+
 interface HomeProps {
   product: {
     priceId: string;
